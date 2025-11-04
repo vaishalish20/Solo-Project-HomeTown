@@ -1,12 +1,13 @@
-*{
+* {
     margin: 0;
 }
-body{
+
+body {
     background: pink;
     text-align: center;
 }
 
-.hero-section{
+.hero-section {
     background: skyblue;
     height: 300px;
 
@@ -18,12 +19,40 @@ body{
     background-size: cover;
 
 }
-.title, .description{
+
+.title,
+.description {
     background-color: rgb(179, 93, 179);
     color: white;
     padding: 5px 10px;
 }
-.description{
+
+.description {
     width: 550px;
-    margin-top:15px;
+    margin-top: 15px;
 }
+/* remarks: need to add margin on hero section div later */
+/* =================================================================== */
+.fav-places {
+    background: skyblue;
+    height: 300px;
+    text-align: center;
+}
+.heading{
+    padding-top: 25px;
+}
+.container{
+    margin-top:15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card{
+    height: 200px;
+    width: 250px;
+    background: orangered;
+}
+
+
+
+/* ======================================================================== */
