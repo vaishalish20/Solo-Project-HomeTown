@@ -17,6 +17,7 @@ body {
     justify-content: center;
     background: url("images/toyland.jpg");
     background-size: cover;
+    
 
 }
 
@@ -48,11 +49,33 @@ body {
     justify-content: space-evenly;
 }
 .card{
-    height: 200px;
+    height: 240px;
     width: 250px;
     background: orangered;
 }
 
-
-
+.places-desc{
+    padding-top:15px;
+    margin:0 auto;
+    width: 200px;
+}
+.places-imgs{
+    width: 100px;
+    height: 100px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin:15px auto 20px auto;
+}
 /* ======================================================================== */
+.guide-info{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+.our-guide{
+    
+}
+.guide-img{
+    width: 100px;
+}
