@@ -3,12 +3,22 @@
 }
 
 body {
-    background: pink;
+    /* background: pink; */
+    /* background: rgb(245, 141, 245); */
+    background: #fed75a;
+    color:white;
+    margin:10px;
+    border-radius: 50%;
     text-align: center;
+    font-family: "DynaPuff", system-ui;
+    /* font-optical-sizing: auto; */
+    /* font-weight: 100; */
+    font-style: normal;
+    /* font-variation-settings: "wdth" 100; */
 }
 
 .hero-section {
-    background: skyblue;
+    /* background: skyblue; */
     height: 300px;
 
     display: flex;
@@ -17,7 +27,7 @@ body {
     justify-content: center;
     background: url("images/toyland.jpg");
     background-size: cover;
-    
+
 
 }
 
@@ -32,50 +42,58 @@ body {
     width: 550px;
     margin-top: 15px;
 }
+
 /* remarks: need to add margin on hero section div later */
 /* =================================================================== */
 .fav-places {
-    background: skyblue;
+    /* background: skyblue; */
     height: 340px;
     text-align: center;
 }
-.heading{
+
+.heading {
     padding-top: 25px;
 }
-.container{
-    margin-top:15px;
+
+.container {
+    margin-top: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
-.card{
+
+.card {
     height: 240px;
     width: 250px;
-    background: orangered;
+    /* background: orangered; */
+    background: #F28B82;
     margin-bottom: 20px;
 }
 
-.places-desc{
-    padding-top:15px;
-    margin:0 auto;
+.places-desc {
+    padding-top: 15px;
+    margin: 0 auto;
     width: 200px;
 }
-.places-imgs{
+
+.places-imgs {
     width: 100px;
     height: 100px;
     background: white;
     border: 1px solid black;
     border-radius: 50%;
-    margin:15px auto 20px auto;
+    margin: 15px auto 20px auto;
 }
+
 /* ======================================================================== */
-.guide-info{
+.guide-info {
     height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.our-guide{
+
+.our-guide {
     width: 400px;
     height: 200px;
     background: white;
@@ -85,20 +103,24 @@ body {
     align-items: center;
 
 }
-.guide-img{
+
+.guide-img {
     width: 160px;
     height: 140px;
-    
+
 }
-.info{
+
+.info {
     width: 180px;
     height: 170px;
     text-align: center;
     background-color: skyblue;
 }
-.guide-title{
+
+.guide-title {
     padding-top: 10px;
 }
-.guide-desc{
-    padding:10px;
+
+.guide-desc {
+    padding: 10px;
 }
