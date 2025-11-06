@@ -5,9 +5,10 @@
 body {
     /* background: pink; */
     /* background: rgb(245, 141, 245); */
-    background: #fed75a;
+    /* background: #fed75a; */
+    /* background-color: rgb(252, 114, 252); */
     color:white;
-    margin:10px;
+    margin:15px;
     border-radius: 50%;
     text-align: center;
     font-family: "DynaPuff", system-ui;
@@ -27,6 +28,8 @@ body {
     justify-content: center;
     background: url("images/toyland.jpg");
     background-size: cover;
+    border-radius: 10px;
+    margin-bottom:10px;
 
 
 }
@@ -49,6 +52,8 @@ body {
     /* background: skyblue; */
     height: 340px;
     text-align: center;
+    border-radius: 1px;
+    background-color: rgb(238, 170, 238);
 }
 
 .heading {
@@ -66,7 +71,7 @@ body {
     height: 240px;
     width: 250px;
     /* background: orangered; */
-    background: #F28B82;
+    /* background: #F28B82; */
     margin-bottom: 20px;
 }
 
@@ -101,6 +106,8 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-bottom: 2px solid rgb(179, 93, 179);
+    border-right: 2px solid rgb(179, 93, 179);
 
 }
 
@@ -114,7 +121,9 @@ body {
     width: 180px;
     height: 170px;
     text-align: center;
-    background-color: skyblue;
+    /* background-color: skyblue; */
+    /* background: #fed75a; */
+    background-color: rgb(179, 93, 179);
 }
 
 .guide-title {
