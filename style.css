@@ -21,7 +21,7 @@ body {
 
 .hero-section {
     /* background: skyblue; */
-    height: 320px;
+    height: 270px;
 
     display: flex;
     flex-direction: column;
@@ -30,7 +30,7 @@ body {
     background: url("images/toyland.jpg");
     background-size: cover;
     border-radius: 10px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 
 
 }
@@ -50,43 +50,48 @@ body {
 /* remarks: need to add margin on hero section div later */
 /* =================================================================== */
 .fav-places {
-    /* background: skyblue; */
-    height: 320px;
-    text-align: center;
-    border-radius: 1px;
-    background-color: rgb(238, 170, 238);
+    height: 350px;
+    background: #8490e5;
+    color: #ffe695;
+    /* text-align: center; */
+    /* border-radius: 1px; */
 }
 
 .heading {
-    padding-top: 25px;
+    padding-top: 20px;
+    color: #ffdb64;
+    text-shadow: 0 0 1px black;
 }
 
 .container {
-    margin-top: 15px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .card {
-    height: 240px;
-    width: 250px;
-    /* background: orangered; */
-    /* background: #F28B82; */
-    margin-bottom: 20px;
+    height: 255px;
+    width: 270px;
+}
+
+.places-title {
+    color: #f1d67c;
+    text-shadow: 0 0 2px black;
 }
 
 .places-desc {
     padding-top: 15px;
     margin: 0 auto;
     width: 200px;
+    color:#ff8f83;
+    color: #f3dc8e;
+    text-shadow: 0 0 1px #ff8f83;
 }
 
 .places-imgs {
     width: 100px;
     height: 100px;
     background: white;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 50%;
     margin: 15px auto 20px auto;
 }
@@ -100,6 +105,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 /* this is the div that contains image and text part related to our guide */
 #guide-info-card {
     width: 420px;
@@ -113,6 +119,7 @@ body {
     border-left: 5px solid #ffd858;
     border-right: 5px solid #ffd858;
 }
+
 .guide-img {
     width: 160px;
     height: 150px;
@@ -134,8 +141,9 @@ body {
 
 .about-place {
     padding: 10px;
-       color:#5864ac;
+    color: #5864ac;
 }
+
 .guide-name {
     padding-bottom: 10px;
 }
