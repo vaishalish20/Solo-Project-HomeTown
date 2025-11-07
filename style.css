@@ -28,7 +28,8 @@ body {
 
 .title,
 .description {
-    background-color: #ffdb64;
+    /* background-color: #ffdb64; */
+    background-color: #8490e5;;
     color: white;
     padding: 5px 10px;
     text-shadow: 0 0 1px black;
