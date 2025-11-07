@@ -50,7 +50,7 @@ span {
 .fav-places {
     height: 350px;
     background: #8490e5;
-    color: #ffe695;
+    /* color: #ffe695; */
     /* text-align: center; */
     /* border-radius: 1px; */
 }
@@ -58,7 +58,8 @@ span {
 .heading {
     padding-top: 20px;
     color: #ffdb64;
-    text-shadow: 0 0 1px black;
+    color:#ff8f83;
+    text-shadow: 0 0 2px black;
 }
 
 .container {
